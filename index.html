@@ -22,7 +22,7 @@
 
 
 		<!-- Navigation Section -->
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <img src="./resources/images/navbar-logo.png" width="80" height="80"><a class="navbar-brand" href="#">IHP</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,20 +40,21 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            Media
+            More
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Services</a></li>
             <li><a class="dropdown-item" href="#">Out Team</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Donate</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" href="#">Media</a></li>
+			<li><a class="dropdown-item" href="#">Donate</a></li>
           </ul>
         </li>
       	</ul>
 
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn search-btn" type="submit">Search</button>
       </form>
     </div>
   </div>
@@ -78,9 +79,14 @@
 		</nav> -->
 
 	<!-- Banner -->
-	<section class="banner">
-		<h1>Illordia Hunts Paranormal</h1>
-	</section>
+	<div class="row main-logo gx-0">
+		<div class="col-lg-12">
+			<img class="img-responsive main-logo-img" src="./resources/images/main-logo.png">
+			<h1>Illordia Hunts Paranormal</h1>
+		</div>
+	</div>
+
+
 	<!-- Content A -->
 	<section class="box-a">
 		<div class="image-a"></div>
@@ -96,23 +102,23 @@
 	</section>
 
 	<!-- Content Three -->
-	<div class="row">
-		<div class="col-md-4 col-xs-4">
-			<img class="img-responsive residential" src="./resources/images/residential.png"/>
+	<div class="row content-three g-0">
+		<div class="col-md-4 col-xs-3">
+			<img class="img-responsive residential" src="./resources/images/residential-modified.png"/>
 				<h3>Residential</h3>
-					<p>Helping Those Who Need A Friend. Commercial and Private Residence Community Service.</p>
+					<p class="first">Helping Those Who Need A Friend. Commercial and Private Residence Community Service.</p>
 		</div>
 
-		<div class="col-md-4 col-xs-4">
-			<img class="img-responsive private-events text-center" src="./resources/images/private-events.png"/>
+		<div class="col-md-4 col-xs-3">
+			<img class="img-responsive private-events text-center" src="./resources/images/private-events-modified.png"/>
 				<h3>Private Events</h3>
-					<p>Variety of Private Services for individual and group events, including point and go's! Lets Go GHOSTIES!</p>
+					<p class="second">Variety of Private Services for individual and group events, including point and go's! Lets Go GHOSTIES!</p>
 		</div>
 
-		<div class="col-md-4 col-xs-4">
-			<img class="img-responsive local" src="./resources/images/local-assistance.png"/>
+		<div class="col-md-4 col-xs-3">
+			<img class="img-responsive local" src="./resources/images/local-assistance-modified.png"/>
 				<h3>Local Assistance</h3>
-				<p>Need an extra hand? Short a crewmember? we can help!</p>
+				<p class="third">Need an extra hand? Short a crewmember? we can help!</p>
 		</div>
 	</div>
 
@@ -136,8 +142,8 @@
 	<div class="footer">
 		<ul class="ftr">
 			<li class="copyright">&COPY; 2022 by Illordia Hunts Paranormal</li>
-			<li><a href= "https://www.instagram.com/ihparanormal/"><i class="fa-brands fa-instagram"></i></a></li> <!-- Using font awesome, we can plug social media Icons.. I'm testing it now -->
-			<li><a href= "https://www.tiktok.com/@ihparanormal"><i class="fa-brands fa-tiktok"></i></a></li>
+			<li><a href= "https://www.instagram.com/ihparanormal/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> <!-- Using font awesome, we can plug social media Icons.. I'm testing it now -->
+			<li><a href= "https://www.tiktok.com/@ihparanormal" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
 			<li class="email">Ihparanormal@yahoo.com</li>
 		</ul>
 	</div>
